@@ -157,9 +157,12 @@ section {
 
 .subscribe {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
 }
 
-.subscribe input[type="email"] {
+.subscribe-email{
     border-radius: 8px;
     background: #FFF;
     padding: 22px 0 22px 22px;
