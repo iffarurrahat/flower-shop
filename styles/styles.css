@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+section {
+    margin: 128px 100px;
+}
+
+.title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.primary-btn {
+    border-radius: 8px;
+    background: #E55473;
+    color: #fff;
+    padding: 20px 43px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.details {
+    margin: 32px 0;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+/* banner styles */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #E554731A;
+}
+
+.banner-img img {
+    height: 600px;
+    width: 450px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+/* Featured styles */
+.details-feat {
+    text-align: center;
+    margin: 0 0 48px 0;
+}
+
+.featured-box-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.featured-box img {
+    height: 400px;
+    width: 300px;
+}
+
+.featured-box h5 {
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.featured-img img {
+    padding: 100px 30px 0 30px;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+    border-radius: 300px 300px 0px 0px;
+}
+
+.box-1 {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.box-2 {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.box-3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+/* option section styles */
+.optional-section {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.option {
+    text-align: center;
+    padding: 86px 0;
+}
+
+.option-title {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+/* deal-section styles */
+.deal-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 0px;
+}
+
+.deal-btn {
+    margin-left: 35%;
+    margin-top: -12px;
+}
+
+.title-color {
+    color: #272727;
+}
